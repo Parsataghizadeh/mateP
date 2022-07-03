@@ -69,21 +69,21 @@
         padding-right: 30px;
     }
 }
-@media screen and (max-width: 400) {
-    .teamLi:first-child{
-        margin: 0px 6px 0px 0px;
-    }
-    .teamLi{
-        /* padding: 1px 3px 2px 3px; */
-    }
-    .teamUl{
-        display: flex;
-        justify-content: center;
-        padding-right: 30px;
-    }
-}
 .qaz{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+}
+.eded{
+    text-align: center;
+    text-decoration: none;
+    background-color: #61D2B4;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 3px 0px;
+    /* padding: 13px 39px; */
+    border-radius: 30px;
+    transition: 0.25s ease;
+    cursor: pointer;
 }
