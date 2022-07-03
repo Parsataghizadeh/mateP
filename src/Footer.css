@@ -1,0 +1,190 @@
+.footer{
+    background-color: #343a40;
+}
+.footerRap{
+    margin-top: 80px;
+    padding: 70px 0px;
+}
+.contactUs{
+    color: white;
+    margin-left: 90px;
+}
+.footerH3{
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+.phone span{
+   color: #61D2B4;
+   padding-left: 10px;
+}
+.email span{
+   color: #61D2B4;
+   padding-left: 10px;
+}
+.footerIcon{
+    margin-top: 40px;
+}
+.footerIcon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footerIcon ul li {
+    display: inline;
+}
+.footerIcon ul li a {
+   display: inline-block;
+   margin-right: 5px;
+   margin-bottom: 15px;
+   border-radius: 50%;
+   line-height: 37px;
+   transition: all 0.3s ease-in;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   background: #ddd;
+   font-size: 16px;
+}
+.fac a {
+    color: #4867AA;
+}
+.twi a {
+    color: #1DA1F2;
+}
+.goo a {
+    color: #DD4D42;
+}
+.lin a {
+    color: #007BB6;
+}
+.ins a {
+    color: #DD4D42;
+}
+.fac a:hover {
+    background-color: #4867AA;
+    color: white;
+}
+.twi a:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+.goo a:hover {
+    background-color: #DD4D42;
+    color: white;
+}
+.lin a:hover {
+    background-color: #007BB6;
+    color: white;
+}
+.ins a:hover {
+    background-color: #DD4D42;
+    color: white;
+}
+.formG{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.nameIN::placeholder{
+    font-size: 16px
+}
+.nameIN{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 14px;
+    border-color: #fff;
+    border-radius: 0px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.eerr{
+  color: #fff;  
+}
+.eerr li {
+    color: #d9534f;
+    list-style-type: none;
+}
+.text-center {
+    text-align: center !important;
+}
+.submit-button button, .SI button{
+    background-color: #61D2B4;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    padding: 11px 40px;
+    transition: all 0.3s ease-in;
+}
+.submit-button button:hover, .SI button:hover {
+    color: #fff;
+    background: #33b391;
+    border-color: #33b391;
+}
+@media screen and (max-width: 992px) {
+    .contactUs{
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+}
+.MMM{
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.SaveB{
+    color: #fff;
+    background-color: #33b391;
+    border-color: #33b391;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+.SO{
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    direction: ltr;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}

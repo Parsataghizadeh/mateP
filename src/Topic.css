@@ -1,0 +1,38 @@
+.mtt{
+    margin-top: 6rem;
+}
+.imgTopic{
+    background-image: url(C:\Users\farhad\portfolio\src\img\countainer.jpg);
+    background-size: cover;
+}
+.topicH{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.topicH svg {
+    font-size: 60px;
+    color: #fff;
+}
+.topicB{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.topicF{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+#topicCon{
+    padding: -1px 0px 100px 0px;
+}
+.khar{
+    padding-top: 55px;
+}
+.topicCol{
+    padding-bottom: 65px;
+}

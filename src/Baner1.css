@@ -1,0 +1,138 @@
+.banerS{
+    background-image: url(/src/img/bg1.jpg);
+    background-size: cover;
+}
+#t-center{
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+}
+#t-center1{
+    text-align: center;
+    font-size: 17px;
+    padding: 15px 105px 0px 105px;
+    color: #fff;
+}
+@media screen and (max-width:760px) {
+    #t-center{
+        text-align: center;
+        font-size: 29px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:987px) {
+    #t-center1{
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 15px 11px 0px 11px;
+        color: #fff;
+    }
+}
+.mt-51{
+    margin-top: 5.5rem;
+}
+.span-line{
+    margin: auto;
+    width: 70px;
+    border: 1px solid #61D2B4;
+    opacity: 1;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#title{
+    padding-top:2rem;
+    padding-bottom: 3rem;
+}
+.imgBanerO{
+    padding-top: 0;
+}
+.imgBaner{
+    float: right;
+}
+.svgBoxx{
+    color: #61D2B4;
+    font-size: 28px;
+    line-height: 60px;
+}
+.divBoxx{
+    padding-left: 30px;
+}
+@media screen and (max-width:1399px) {
+    .imgBaner{
+        display: none;
+    }
+}
+.divLogo{
+    padding-top: 16px;
+    border: 1px solid #61D2B4;
+    text-align: center;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-right: 15px;
+}
+.divTB{
+    color: #61D2B4;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+.divDis{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+#banerRR{
+    margin-top: 9.1rem;
+}
+#tahMB{
+    margin-top: 3.6rem;
+}
+#conSakhti{
+    margin-top: -135px;
+}
+@media screen and (max-width: 990px) {
+    .pareshodam{
+        max-width: 769px;
+    }
+    .divDis{
+        padding-left: 75px;
+    }
+    #hamebaham{
+        margin-top: 2.5rem;
+    }
+    #hamebaham:first-child{
+        margin-top: 1.5rem;
+    }
+    .banerS{
+        padding-bottom: 45px;
+    }
+}
+@media screen and (max-width: 1399px) {
+    #hamebaham{
+        margin-top: 4rem;
+    }
+    #conSakhti{
+        margin-top: -190px;
+    }
+    .banerS{
+        padding-bottom: 45px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #hamebaham{
+        margin-top: 4rem;
+    }
+    #conSakhti{
+        margin-top: -190px;
+    }
+}

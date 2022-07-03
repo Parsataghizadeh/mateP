@@ -1,0 +1,45 @@
+.firstColBox{
+    text-align: center;
+}
+.mtHF{
+    margin-top: 40px;
+}
+.divInBox{
+    display: inline-block;
+}
+.divInBox p {
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0px 20px;
+}
+.divIcon{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-top: 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.svgFIcon{
+    font-size: 26px;
+    line-height: 60px;
+    color: #61D2B4;
+    display: inline-block;
+    transition: 0.2s ease-in;
+}
+.svgFIcon:hover{
+    transform: scale(1.2);
+}
+.h4TB{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.h4Div{
+    display: grid;
+}

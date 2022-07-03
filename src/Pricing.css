@@ -1,0 +1,52 @@
+.pricing{
+    margin-top: -330px;
+}
+.Cardheader{
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    font-size: 30px;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.Cardtitle{
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 400;
+    color: #61D2B4;
+    margin-bottom: 20px;
+}
+.divText{
+    padding: 0px 31px 25px 31px;
+    line-height: 38px;
+}
+@media screen and (min-width:600px) and (max-width:1500px) {
+    .divText{
+        padding: 0px 21px 25px 21px;
+    }
+}
+@media screen and (min-width:200px) and (max-width:800px) {
+    .divText{
+        padding: 0px 0px 25px 0px;
+        line-height: 33px;
+    }
+}
+#Button{
+    border: 1px solid #61D2B4;
+    background: #61D2B4;
+    position: relative;
+    color: #fff;
+    padding: 7px 15px;
+    z-index: 1;
+    border-radius: 30px;
+}
+#Button:hover{
+    color: #fff;
+    background: #33b391;
+    border-color: #33b391;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+#boX{
+    margin-top: 2rem;
+}

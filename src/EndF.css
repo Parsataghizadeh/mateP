@@ -1,0 +1,12 @@
+.endf{
+    background: #292f35;
+}
+.copyR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13px;
+}
+.copyR p {
+    color: white;
+}

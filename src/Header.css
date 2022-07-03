@@ -1,0 +1,97 @@
+.navlink-header{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 7px 27px;
+    font-size: 20px;
+}
+.navlink-header:hover {
+    color: #efefef;
+}
+.navlink-headerE{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 7px 27px;
+    font-size: 20px;
+}
+.navlink-headerE:hover {
+    color: #efefef;
+}
+.header-org {
+    background-image: url(/src/img/hero-area.jpg);
+    background-size: cover;
+}
+/* .content {
+    height: 3000px;
+} */
+.f-text{
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+.f-text2{
+    font-size: 16px;
+    color: #efefef;
+    text-align: center;
+}
+@media  screen and (max-width: 768px) {
+    .f-text {
+        font-size: 21px;
+        color: #fff;
+        text-align: center;
+    }
+    .f-text2{
+        font-size: 13px;
+        color: #efefef;
+        text-align: center;
+    }
+    #mt-5_custom1{
+        margin-top: 1.5rem;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 991px) {
+    #mt-5_custom1{
+        margin-top: 4.5rem;
+    }
+}
+.mt-5_custom1{
+    margin-top: 8.5rem;
+}
+.download-a-f {
+    text-align: center;
+    text-decoration: none;
+    background-color: #61D2B4;
+    color: #fff;
+    /* padding: 13px 39px; */
+    border-radius: 30px;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+.download-a-f:hover {
+    color: #fff;
+    background-color: #5cbea4;
+    transform: scale(11deg);
+}
+.download-col{
+    text-align: center;
+}
+.endKh{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    padding: 7px 7px;
+    background-color: #61D2B4;
+    border: 1px solid #61D2B4;
+    border-radius: 6px;
+}
+.Arrow{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
