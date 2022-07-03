@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mateP/static/css/main.37440cbf.css",
+    "main.css": "/mateP/static/css/main.5caa906d.css",
     "main.js": "/mateP/static/js/main.6fa7d07c.js",
     "static/media/countainer.jpg": "/mateP/static/media/countainer.014a5e716d4ecaa81b38.jpg",
     "static/media/hero-area.jpg": "/mateP/static/media/hero-area.6da8d9539e1539f845fa.jpg",
     "static/media/bg1.jpg": "/mateP/static/media/bg1.7a51f1d4fc8ce4b56386.jpg",
     "index.html": "/mateP/index.html",
-    "main.37440cbf.css.map": "/mateP/static/css/main.37440cbf.css.map",
+    "main.5caa906d.css.map": "/mateP/static/css/main.5caa906d.css.map",
     "main.6fa7d07c.js.map": "/mateP/static/js/main.6fa7d07c.js.map"
   },
   "entrypoints": [
-    "static/css/main.37440cbf.css",
+    "static/css/main.5caa906d.css",
     "static/js/main.6fa7d07c.js"
   ]
 }
