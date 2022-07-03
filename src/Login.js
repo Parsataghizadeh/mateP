@@ -36,15 +36,15 @@ function Login() {
     }
   return (
     <div className='login'>
+            <div className='login__container'>
+            <div className="darbar">
             <Link to='/'>
                 <img
                     className="login__logo"
                     src='https://preview.uideck.com/items/mate/img/logo.png' 
                 />
             </Link>
-
-            <div className='login__container'>
-                <h1>Sign-in</h1>
+            </div>
 
                 <form>
                     <h5>E-mail</h5>

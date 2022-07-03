@@ -4,15 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
-
 .login__logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     object-fit: contain;
-    width: 100px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
 .login__container {
@@ -47,11 +43,13 @@
 }
 
 .login__signInButton {
-    background: #f0c14b;
+    background: #61D2B4;
     border-radius: 2px;
+    font-weight: 700;
     width: 100%;
     height: 30px;
     border: 1px solid;
+    color: white;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
   }
@@ -61,6 +59,7 @@
     width: 100%;
     height: 30px;
     border: 1px solid;
+    font-weight: 600;
     margin-top: 10px;
     border-color: darkgray;
   }
