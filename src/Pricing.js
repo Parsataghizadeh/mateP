@@ -10,16 +10,13 @@ import Aos from 'aos'
 import "aos/dist/aos.css"
 
 function Pricing() {
-  useEffect(() => {
-    Aos.init({duration: 2000});
-  }, []);
   return (
     <div className='pricing' id='pri'>
      <Title title='Pricing table'/>
      <Container>
          <Row>
              <Col xs={12} sm={6} md={6} lg={4} id='boX'>
-             <div data-aos="fade-right">
+             <div>
                <Card className="text-center">
                 <Card.Header bsPrefix='Cardheader'>Free</Card.Header>
                 <Card.Body>
@@ -33,7 +30,7 @@ function Pricing() {
              </div>
              </Col>
              <Col xs={12} sm={6} md={6} lg={4} id='boX'>
-             <div data-aos="fade-left">
+             <div>
                <Card className="text-center">
                 <Card.Header bsPrefix='Cardheader'>Popular</Card.Header>
                 <Card.Body>
@@ -47,7 +44,7 @@ function Pricing() {
              </div>
              </Col>
              <Col xs={12} sm={{span:6, offset:3}} md={{span:6, offset:3}} lg={{span:4, offset:0}} id='boX'>
-                 <div data-aos="fade-up">
+                 <div>
                  <Card className="text-center">
                 <Card.Header bsPrefix='Cardheader'>Premiume</Card.Header>
                 <Card.Body>

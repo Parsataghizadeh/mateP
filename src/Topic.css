@@ -16,15 +16,13 @@
 }
 .topicB{
     text-align: center;
-    /* font-size: 35px; */
-    font-size: 5px;
+    font-size: 35px;
     color: #fff;
     margin-bottom: 10px;
 }
 .topicF{
     text-align: center;
-    /* font-size: 20px; */
-    font-size: 5px;
+    font-size: 20px;
     color: #fff;
 }
 #topicCon{
