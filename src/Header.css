@@ -81,6 +81,7 @@
 }
 .endKh{
     position: fixed;
+    z-index: 100;
     right: 10px;
     bottom: 20px;
     padding: 7px 7px;

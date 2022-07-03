@@ -16,7 +16,6 @@ function Pricing() {
      <Container>
          <Row>
              <Col xs={12} sm={6} md={6} lg={4} id='boX'>
-             <div>
                <Card className="text-center">
                 <Card.Header bsPrefix='Cardheader'>Free</Card.Header>
                 <Card.Body>
@@ -27,10 +26,8 @@ function Pricing() {
                  <Button id='Button'>Buy Now</Button>
               </Card.Body>
                </Card>
-             </div>
              </Col>
              <Col xs={12} sm={6} md={6} lg={4} id='boX'>
-             <div>
                <Card className="text-center">
                 <Card.Header bsPrefix='Cardheader'>Popular</Card.Header>
                 <Card.Body>
@@ -41,10 +38,8 @@ function Pricing() {
                  <Button id='Button'>Buy Now</Button>
               </Card.Body>
                </Card>
-             </div>
              </Col>
              <Col xs={12} sm={{span:6, offset:3}} md={{span:6, offset:3}} lg={{span:4, offset:0}} id='boX'>
-                 <div>
                  <Card className="text-center">
                 <Card.Header bsPrefix='Cardheader'>Premiume</Card.Header>
                 <Card.Body>
@@ -55,7 +50,6 @@ function Pricing() {
                  <Button id='Button'>Buy Now</Button>
                  </Card.Body>
                  </Card>
-                 </div>
              </Col>
          </Row>
      </Container>
